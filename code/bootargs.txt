@@ -1,0 +1,2 @@
+set bootargs root=/dev/mtdblock3 init=/linuxrc console=ttySAC0
+set bootargs console=ttySAC0 root=/dev/nfs nfsroot=192.168.3.102:/home/liang/NFS_S3C2440 ip=192.168.3.80:192.168.3.102:192.168.3.1:255.255.255.255::eth0:off
